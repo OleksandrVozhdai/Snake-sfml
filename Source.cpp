@@ -17,7 +17,7 @@ int length = 2;
 pair<int, int> generateRandomCoordinates()
 {
 	int r = rand() % rows;
-	int r1 = rand() & columns;
+	int r1 = rand() % columns;
 	return { r, r1 };
 }
 
